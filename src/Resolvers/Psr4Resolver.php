@@ -44,7 +44,7 @@ final class Psr4Resolver implements ResolverInterface
         }
 
         return $this->directory
-            .str_replace('\\', '/', $relative)
-            .'.php';
+            . str_replace('\\', '/', $relative)
+            . '.php';
     }
 }
