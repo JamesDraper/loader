@@ -1,4 +1,5 @@
 parameters:
     level: max
     paths:
+        - bootstrap.php
         - src

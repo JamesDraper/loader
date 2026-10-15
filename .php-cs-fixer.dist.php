@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-$finder = (new PhpCsFixer\Finder())->in(__DIR__);
+$finder = (new PhpCsFixer\Finder())->in(__DIR__)->append([
+    __DIR__ . '/bootstrap.php',
+]); 
 
 $rules = [
     '@auto' => true,
