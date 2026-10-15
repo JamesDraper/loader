@@ -10,3 +10,5 @@ require __DIR__ . '/src/Internal/LoaderHelper.php';
 require __DIR__ . '/src/Internal/Loader.php';
 
 require __DIR__ . '/src/Loader.php';
+
+require __DIR__ . '/src/function.php';
